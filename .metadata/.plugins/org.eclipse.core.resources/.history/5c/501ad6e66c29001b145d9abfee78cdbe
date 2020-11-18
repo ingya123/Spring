@@ -1,0 +1,13 @@
+package com.care.di_ex03;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class MyController02 {
+	//http://localhost:8081/di_ex01/member02/index
+	@RequestMapping("/member02/index")
+	public String memberIndex() {
+		return "/member02/index";
+	}
+}

@@ -1,0 +1,6 @@
+package com.care.member;
+
+public class MemberDTO {
+	String name;
+	String age;
+}

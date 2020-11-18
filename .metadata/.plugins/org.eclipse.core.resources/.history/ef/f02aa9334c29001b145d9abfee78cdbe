@@ -1,0 +1,12 @@
+package com.care.di_test;
+
+import org.springframework.context.event.GenericApplicationListenerAdapter;
+import org.springframework.context.support.GenericApplicationContext;
+
+public class MainClass {
+	public static void main(String[] args) {
+		
+		GenericApplicationContext ctx = 
+				new GenericApplicationContext("");
+	}
+}

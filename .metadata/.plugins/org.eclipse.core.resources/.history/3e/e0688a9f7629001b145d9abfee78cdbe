@@ -1,0 +1,12 @@
+package com.care.di_ex04;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class RedirectController {
+	@RequestMapping("ind")
+	public String index() {
+		return "re/index";
+	}
+}
